@@ -7,6 +7,9 @@ object SparkScala {
 
   Logger.getLogger("org").setLevel(Level.ERROR)
   //configuration variable can be defined
+
+  def main(args: Array[String]): Unit = {
+
   val sparkConf = new SparkConf()
   sparkConf.setAppName("Taha's Spark Application")
   //local mode :- 4 specifies the logical cores of the CPU
@@ -14,6 +17,8 @@ object SparkScala {
   val sparkContext = new SparkContext(sparkConf)
   println(sparkContext)
   System.in.read
+  }
+
 
 
 }

@@ -4,7 +4,7 @@
 		module="scalademo_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180817010328"
+		publication="20180817021412"
 	>
 		<description>
 		scalademo
@@ -35,5 +35,8 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.12" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.12" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="2.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.2.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

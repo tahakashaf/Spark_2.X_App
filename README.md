@@ -1,1 +1,1 @@
-# scalaSparkDemo
+# Spark Scala Application

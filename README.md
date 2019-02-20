@@ -1,1 +1,1 @@
-# Spark Scala Application
+# Spark Scala Application - Skeleton
